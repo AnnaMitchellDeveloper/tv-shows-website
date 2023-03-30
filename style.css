@@ -1,0 +1,9 @@
+h1 {
+	text-align: center;
+}
+.input-field {
+	display: flex;
+}
+#search {
+	flex: 1;
+}
