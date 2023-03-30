@@ -1,9 +1,27 @@
-h1 {
-	text-align: center;
+body {
+  background: #1e2126;
 }
+h1 {
+  text-align: center;
+  color: white;
+}
+img {
+  opacity: 0.7;
+}
+
 .input-field {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie {
 	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 20px;
 }
 #search {
-	flex: 1;
+  flex: 1;
 }
